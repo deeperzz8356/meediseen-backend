@@ -1,0 +1,7 @@
+venv
+dataset
+models
+logs
+__pycache__
+*.pyc
+*.pyo
