@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: mediseen-backend
+    env: docker
+    plan: free
+    dockerfilePath: backend/Dockerfile
+    healthCheckPath: /
+    autoDeploy: true
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: ALLOWED_ORIGINS
+        value: capacitor://localhost,capacitor://app,file://,https://your-frontend.onrender.com
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: CLOUDINARY_NAME
+        sync: false
+      - key: CLOUDINARY_KEY
+        sync: false
+      - key: CLOUDINARY_SECRET
+        sync: false
+      - key: FIREBASE_STORAGE_BUCKET
+        sync: false
+      - key: PORT
+        value: 10000

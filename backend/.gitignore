@@ -1,0 +1,10 @@
+firebase_admin.json
+venv/
+__pycache__/
+.env
+*.pyc
+node_modules
+package.json
+package-lock.json
+temp
+uploads

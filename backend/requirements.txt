@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+firebase-admin
+google-genai
+opencv-python-headless
+numpy
+pdfkit
+Pillow
+httpx
+langgraph
+cloudinary
+python-multipart
